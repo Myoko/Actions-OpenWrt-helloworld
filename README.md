@@ -3,7 +3,7 @@
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/Lancenas/actions-openwrt-helloworld/blob/master/LICENSE)
 ![GitHub Stars](https://img.shields.io/github/stars/Lancenas/actions-openwrt-helloworld.svg?style=flat-square&label=Stars&logo=github)
 ![GitHub Forks](https://img.shields.io/github/forks/Lancenas/actions-openwrt-helloworld.svg?style=flat-square&label=Forks&logo=github)
-![Build OpenWrt 20200626](https://github.com/Myoko/actions-openwrt-helloworld/workflows/Build%20OpenWrt%2020200626/badge.svg)
+![Build OpenWrt 0701](https://github.com/Myoko/actions-openwrt-helloworld/workflows/Build%20OpenWrt%200701/badge.svg?branch=master&event=release)
 
 - **感谢** [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)和[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 - 通过创建流程文件，在线编译helloworld服务固件；
