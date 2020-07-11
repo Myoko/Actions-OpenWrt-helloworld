@@ -13,4 +13,4 @@ sed -i 's/^\(.*helloworld\)/\1/' feeds.conf.default
 
 # Lienol/openwrt-package
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package.git' feeds.conf.default
-sed -i '$a src-git https://github.com/Myoko/openwrt-packages.git' feeds.conf.default
+sed -i '$a src-git myoko https://github.com/Myoko/openwrt-packages.git' feeds.conf.default
