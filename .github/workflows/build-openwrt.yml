@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt 0726
+name: Build OpenWrt 0728
 
 on:
   repository_dispatch:
@@ -23,8 +23,8 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/Myoko/openwrt
-  REPO_BRANCH: main
+  REPO_URL: https://github.com/coolsnowwolf/openwrt
+  REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
