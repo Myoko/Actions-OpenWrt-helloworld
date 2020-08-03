@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt 0728
+name: Build OpenWrt 0805
 
 on:
   repository_dispatch:
