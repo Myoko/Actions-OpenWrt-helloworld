@@ -14,3 +14,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # Lienol/openwrt-package
 sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-package.git' feeds.conf.default
 sed -i '$a src-git diy https://github.com/Myoko/openwrt-packages.git' feeds.conf.default
+
+# custom kernel version
+sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=4.19/g' ./target/linux/x86/Makefile
+sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.19/g' ./target/linux/x86/Makefile
