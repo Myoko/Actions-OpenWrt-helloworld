@@ -18,6 +18,9 @@ sed -i '$a src-git diy https://github.com/Myoko/openwrt-packages.git' feeds.conf
 # AdGuard home
 sed -i '$a src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome.git' feeds.conf.default
 
+# poweroff
+sed -i '$a src-git poweroff https://github.com/esirplayground/luci-app-poweroff.git' feeds.conf.default
+
 # custom kernel version
 sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=4.19/g' ./target/linux/x86/Makefile
 sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.19/g' ./target/linux/x86/Makefile
