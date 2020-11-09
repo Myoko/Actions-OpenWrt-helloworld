@@ -16,7 +16,7 @@ sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-package.git' feed
 sed -i '$a src-git diy https://github.com/Myoko/openwrt-packages.git' feeds.conf.default
 
 # AdGuard home
-sed -i '$a src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome.git' feeds.conf.default
+sed -i '$a src-git diy https://github.com/rufengsuixing/luci-app-adguardhome.git' feeds.conf.default
 
 # poweroff
 sed -i '$a src-git poweroff https://github.com/esirplayground/luci-app-poweroff.git' feeds.conf.default
