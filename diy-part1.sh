@@ -14,7 +14,7 @@
 # Lienol/openwrt-package
 sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
-sed -i '$a src-git diy https://github.com/Myoko/openwrt-packages.git' feeds.conf.default
+sed -i '$a src-git diy https://github.com/sirpdboy/sirpdboy-package.git' feeds.conf.default
 
 # AdGuard home
 #sed -i '$a src-git diy https://github.com/rufengsuixing/luci-app-adguardhome.git' feeds.conf.default
