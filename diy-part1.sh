@@ -12,10 +12,10 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Lienol/openwrt-package
-sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
-sed -i '$a src-git poweroffdevice https://github.com/sirpdboy/luci-app-poweroffdevice.git' feeds.conf.default
-sed -i '$a src-git theme https://github.com/sirpdboy/luci-theme-opentopd.git' feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
+echo 'src-git helloworld helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
+echo 'src-git poweroffdevice https://github.com/sirpdboy/luci-app-poweroffdevice.git' >>feeds.conf.default
+echo 'src-git theme https://github.com/sirpdboy/luci-theme-opentopd.git' >>feeds.conf.default
 
 # AdGuard home
 #sed -i '$a src-git diy https://github.com/rufengsuixing/luci-app-adguardhome.git' feeds.conf.default
