@@ -14,8 +14,8 @@
 # Add a feed source
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
-sed -i '$a src-git poweroffdevice https://github.com/sirpdboy/luci-app-poweroffdevice' feeds.conf.default
 sed -i '$a src-git packges https://github.com/Myoko/openwrt-packages' feeds.conf.default
+#echo 'src-git poweroffdevice https://github.com/sirpdboy/luci-app-poweroffdevice' >>feeds.conf.default
 
 # AdGuard home
 #sed -i '$a src-git diy https://github.com/rufengsuixing/luci-app-adguardhome.git' feeds.conf.default
