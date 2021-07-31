@@ -17,6 +17,9 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 sed -i '$a src-git packges https://github.com/Myoko/openwrt-packages' feeds.conf.default
 #echo 'src-git poweroffdevice https://github.com/sirpdboy/luci-app-poweroffdevice' >>feeds.conf.default
 
+# ddnsto
+sed -i '$a src-git ddnsto https://github.com/linkease/nas-packages.git' feeds.conf.default
+
 # AdGuard home
 #sed -i '$a src-git diy https://github.com/rufengsuixing/luci-app-adguardhome.git' feeds.conf.default
 
