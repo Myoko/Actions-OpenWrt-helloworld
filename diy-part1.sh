@@ -8,20 +8,20 @@
 # Blog: https://p3terx.com
 #=============================================================
 
-# fw876/helloworld
+# /helloworld
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+sed -i '$a src-git helloworld https://github.com//helloworld' feeds.conf.default
 sed -i '$a src-git packges https://github.com/Myoko/openwrt-packages' feeds.conf.default
-#echo 'src-git poweroffdevice https://github.com/sirpdboy/luci-app-poweroffdevice' >>feeds.conf.default
+#sed -i '$a src-git poweroffdevice https://github.com/sirpdboy/luci-app-poweroffdevice' feeds.conf.default
 
 # ddnsto
 #sed -i '$a src-git ddnsto https://github.com/linkease/nas-packages.git' feeds.conf.default
 
-# AdGuard home
-#sed -i '$a src-git diy https://github.com/rufengsuixing/luci-app-adguardhome.git' feeds.conf.default
+# sirpdboy packages
+#sed -i '$a src-git sirpdboy https://github.com/sirpdboy/sirpdboy-package.git' feeds.conf.default
 
 # poweroff
 #sed -i '$a src-git poweroff https://github.com/esirplayground/luci-app-poweroff.git' feeds.conf.default
