@@ -15,6 +15,7 @@
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
 sed -i '$a src-git packges https://github.com/Myoko/openwrt-packages.git' feeds.conf.default
+#sed -i '$a src-git argon https://github.com/jerrykuku/luci-theme-argon.git' feeds.conf.default
 #sed -i '$a src-git poweroffdevice https://github.com/sirpdboy/luci-app-poweroffdevice' feeds.conf.default
 
 # ddnsto
